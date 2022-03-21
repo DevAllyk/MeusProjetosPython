@@ -9,6 +9,9 @@ class ChuteONumero:
         self.tentar_novamente = True
 
     def Iniciar(self):
+        print('-=-'*30)
+        print('Vou escolher um número de 1 á 100 e você vai adivinhar em qual pensei...')
+        print('-=-'*30)
         self.GerarNumeroAleatorio()
         self.PedirValorAleatorio()
         try:
